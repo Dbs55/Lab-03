@@ -104,8 +104,22 @@
 // Console.WriteLine($"Итоговый балл: {totalScore}");
 
 
-Console.WriteLine("\nЗадание 1. Проверка чётности");
-Console.Write("Введите целое число: ");
-int number = int.Parse(Console.ReadLine());
-bool isEven = (number % 2) == 0;
-Console.WriteLine($"Число {number} чётное: {isEven}");
+// Console.WriteLine("\nЗадание 1. Проверка чётности");
+// Console.Write("Введите целое число: ");
+// int number = int.Parse(Console.ReadLine());
+// bool isEven = (number % 2) == 0;
+// Console.WriteLine($"Число {number} чётное: {isEven}");
+
+Console.WriteLine("\nЗадание 2. Инкремент в выражениях");
+
+int a = 5;
+int result1 = a++;
+Console.WriteLine($"Пример 1: a={a}, result1={result1}");
+
+int b = 5;
+int result2 = ++b;
+Console.WriteLine($"Пример 2: b={b}, result2={result2}"); 
+
+int c = 5;
+int result3 = c++ * 2;
+Console.WriteLine($"Пример 3: c={c}, result3={result3}"); 
